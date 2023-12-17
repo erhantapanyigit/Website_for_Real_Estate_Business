@@ -1,6 +1,6 @@
 ﻿# Website for Real Estate Business
 
-I developed a web page example using HTML5, CSS3 and Bootstrap for companies in the real estate and construction industry.
+I developed a web page example using HTML5, CSS3, JavaScript and Bootstrap for companies in the real estate and construction industry.
 
 
 The project screenshot is provided below:
