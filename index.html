@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prime Estate</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- boostrap style cdn -->
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+
+  </head>
+
+  <body>
+    <nav class="navbar navbar-light navbar-expand-lg fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"
+          >Prime<span class="text-danger">Estate</span></a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto text-center mb-2">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#about"
+              >About</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#services"
+              >Priorities</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#portfolio"
+              >
+              Projects</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <section id="home">
+      <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/ev3.png" class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-md-block">
+              <h5>Manor Style Houses</h5>
+              <p>
+                A Large estate with a historic significance, serving as the primary residence
+              </p>
+              <p><a href="" class="btn btn-warning">Discover More</a></p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/ranch2.jpg" class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-md-block">
+              <h5>Ranch Style Houses</h5>
+              <p>
+                Wide open spaces to create a very informal and casual living style
+              </p>
+              <p><a href="" class="btn btn-warning">Discover More</a></p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/country1.jpg" class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-md-block">
+              <h5>Country Houses</h5>
+              <p>
+                Escape the city with your family to
+                enjoy heated outdoor pool, indoor sauna, gym, barbecue and pizza oven.
+              </p>
+              <p><a href="" class="btn btn-warning">Discover More</a></p>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="container mt-5">
+        <div data-aos="flip-up" class="row my-5">
+          <div data-aos="fade-right" class="col-lg-4 col-md-12">
+            <div class="about_img">
+              <img src="images/building1.jpg" alt="" class="img-fluid" />
+            </div>
+          </div>
+          <div data-aos="fade-left" class="col-lg-8 col-md-12">
+            <div class="about-text ps-lg-5 mt-5">
+              <h2>Whatever You Need, We Are Here</h2>
+              <p>
+                Prime Estate connects you to the latest local listing information,
+                comprehensive neighborhood data and local market experts who
+                understand what it takes to help you reach your real estate goals.
+                Serving more than half of the 100 largest metro areas in the U.S.,
+                independent sales associates affiliated with Prime Estate distinguish 
+                themselves every day by creating exceptional real estate experiences 
+                for their customers and their communities. 
+                It’s an honor we’ve achieved by focusing on exceptional customer
+                service and consistently putting our clients’ evolving real estate 
+               needs first.
+              </p>
+              <a href="" class="btn btn-warning">More about Prime Estate </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="text-center">
+              <h2>Our Priorities</h2>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Aliquam iusto similique veniam error. Delectus perspiciatis nisi
+                quod eos? Hic, debitis.
+              </p>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-12 col-lg-4 mb-2">
+              <div class="card bg-dark text-white text-center p-2 px-5">
+                <i class="fa-solid fa-face-smile fs-1 mb-3 mt-3"></i>
+                <h3 class="card-title">Client Satisfaction</h3>
+                <p class="lead">
+                  Ensuring clients' needs are met promptly and efficiently 
+                  builds trust, fostering long-term relationships, staying updated on market 
+                  and referrals, essential for sustained success in the real estate world.
+                </p>
+                <button class="btn btn-warning">More</button>
+              </div>
+            </div>
+
+            <div class="col-md-12 col-lg-4 mb-2">
+              <div class="card bg-dark text-white text-center p-2 px-5">
+                <i class="fa-solid fa-house-laptop fs-1 mb-3 mt-3"></i>
+                <h3 class="card-title">Market Knowledge</h3>
+                <p class="lead">
+                  Our agents have got information about local real estate trends, property values, 
+                  and market dynamics. In-depth market knowledge allow us 
+                  for strategic pricing, effective negotiations, and informed 
+                  decision-making.
+                </p>
+                <button class="btn btn-warning">More</button>
+              </div>
+            </div>
+
+            <div class="col-md-12 col-lg-4 mb-2">
+              <div class="card bg-dark text-white text-center p-2 px-5">
+                <i class="fas fa-laptop-code fs-1 mb-3 mt-3"></i>
+                <h3 class="card-title">Market Expertise</h3>
+                <p class="lead">
+                  Continuous research enable our clients 
+                  to stay ahead of trends,providing with 
+                   valuable insights to make right decisions. 
+                   Staying updated on trends,property values
+                   enables us to offer accurate advice.
+                </p>
+                <button class="btn btn-warning">More</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="portfolio">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center mt-5">
+            <h2>Projects</h2>
+            <p>
+              Explore our projects, epitomizing excellence, 
+              innovation, and future-focused design in the realm of 
+              construction and development.
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="card bg-white text-center col-lg-4 mb-2">
+            <div class="card-body">
+              <div class="mb-4">
+                <img src="images/project1.jpg" class="img-fluid" alt="Responsive image" />
+              </div>
+              <h3>Completed Projects</h3>
+              <p>
+                Our completed projects showcase our commitment to quality 
+                craftsmanship and client satisfaction. Discover the excellence 
+                in every detail of our successfully delivered structures.
+              </p>
+              <button class="btn btn-warning">Discover More</button>
+            </div>
+          </div>
+
+          <div class="card bg-white text-center col-lg-4 mb-2">
+            <div class="card-body">
+              <div class="mb-4">
+                <img src="images/project1.jpg" class="img-fluid" alt="Responsive image" />
+              </div>
+              <h3>Ongoing Projects</h3>
+              <p>
+                Explore our dynamic ongoing projects, where innovation meets 
+                construction. Witness the unfolding of modern designs and 
+                cutting-edge technologies shaping the future of urban living.
+              </p>
+              <button class="btn btn-warning">Discover More</button>
+            </div>
+          </div>
+
+          <div class="card bg-white text-center col-lg-4 mb-2">
+            <div class="card-body">
+              <div class="mb-4">
+                <img src="images/project1.jpg" class="img-fluid" alt="Responsive image" />
+              </div>
+              <h3>Planned Projects</h3>
+              <p>
+                Immerse yourself in our visionary planned projects, 
+                a testament to our foresight in creating sustainable and 
+                aesthetically pleasing environments. Discover the blueprint 
+                of future architectural marvels.
+              </p>
+              <button class="btn btn-warning">Discover More</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="team" class="section-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center mt-5">
+            <h2>Our Executive Team</h2>
+            <p>
+              Meet Our Visionary Executive Team who 
+              drive innovation together.
+            </p>
+          </div>
+        </div>
+
+        <div class="row grid gap-0 d-flex justify-content-between">
+          <div class="card text-center col-lg-3 col-md-6 col-12">
+            <div class="card-body">
+              <img
+                src="./images/elon3.jpg"
+                alt=""
+                class="img-fluid rounded-circle"
+              />
+              <h3 class="py-2">Elon Musk</h3>
+              <p>
+                Elon has been actively licensed since 2002. 
+                He has been a successful Realtor and Branch 
+                Manager having built multiple offices to top 
+                positions in the market places.
+              </p>
+              <p>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-threads"></i>
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-facebook"></i>
+              </p>
+            </div>
+          </div>
+
+          <div class="card text-center col-lg-3 col-md-6 col-12">
+            <div class="card-body">
+              <img
+                src="./images/mark12.jpg"
+                alt=""
+                class="img-fluid rounded-circle"
+              />
+              <h3 class="py-2">Mark Zuckerberg</h3>
+              <p>
+                Mark is talented in building market centers from the 
+                ground up and excels at increasing profitability through 
+                growth and productivity in the office and region.
+              </p>
+              <p>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-threads"></i>
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-facebook"></i>
+              </p>
+            </div>
+          </div>
+
+          <div class="card text-center col-lg-3 col-md-6 col-12">
+            <div class="card-body">
+              <img
+                src="./images/keanu4.jpg"
+                alt=""
+                class="img-fluid rounded-circle"
+              />
+              <h3 class="py-2">Keanu Reeves</h3>
+              <p>
+                Keanu is a high energy, results-oriented real 
+                estate professional and leader with expertise in 
+                franchise ownership, real estate management, 
+                development, and marketing. 
+              </p>
+              <p>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-threads"></i>
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-facebook"></i>
+              </p>
+            </div>
+          </div>
+
+          <div class="card text-center col-lg-3 col-md-6 col-12">
+            <div class="card-body">
+              <img
+                src="./images/matt3.jpg"
+                alt=""
+                class="img-fluid rounded-circle"
+              />
+              <h3 class="py-2">Matt Damon</h3>
+              <p>
+                Matt has verifiable success in creating and 
+                delivering outstanding real estate foundational 
+                strategies and solutions for real estate brokerages and regions. 
+              </p>
+              <p>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-threads"></i>
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-facebook"></i>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <h2 class="text mb-3">How may we help you?</h2>
+            <p>
+              We are committed to providing an extraordinary level of 
+              care and expertise for all of your real estate needs.  
+              The accomplished independent sales associates 
+              affiliated with our company provide broad industry 
+              experience, local knowledge, and personalized attention 
+              to your unique real estate needs.
+              Whether you’re looking for a property, an agent, an office 
+              or anything else - please let us know how we can assist you.
+            </p>
+          </div>
+        </div>
+
+        <div class="row mt-5">
+          <form class="col-md-12">
+            <input
+              type="text"
+              class="form-control mb-2"
+              placeholder="Your Full Name"
+            />
+            <input
+              type="email"
+              class="form-control mb-2"
+              placeholder="Your email address"
+            />
+            <textarea
+              class="form-control mb-2"
+              placeholder="Comment"
+            ></textarea>
+            <button class="btn btn-warning btn-lg w-100">Submit</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      
+<div class="container">
+  <footer class="py-5 mt-5 ">
+    <div class="row">
+      <div class="col-6 col-md-2 mb-3">
+        
+      </div>
+
+      <div class="col-6 col-md-2 mb-3">
+       
+      </div>
+
+      <div class="col-6 col-md-2 mb-3">
+       
+        
+      </div>
+
+      <div class="col-md-5 offset-md-1 mb-3">
+        <form>
+          <h5>Subscribe to our newsletter</h5>
+          <p>Keep Up-to-Date with Our Monthly Highlights and News.</p>
+          <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+            <label for="newsletter1" class="visually-hidden">Email address</label>
+            <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+            <button class="btn btn-primary" type="button">Subscribe</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+      <p>&copy; Developed by Erhan , 2023 - All rights reserved.</p>
+      <ul class="list-unstyled d-flex">
+        <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"/></svg></a></li>
+        <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"/></svg></a></li>
+        <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"/></svg></a></li>
+      </ul>
+    </div>
+    </footer>
+
+    <!-- boostrap JavaScript  -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script src="animation.js"></script>
+  </body>
+</html>
